@@ -1,0 +1,6 @@
+2020-08-19 00:00:00,292 INFO 2570 [Job#159776640028216033113668294052] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-08-19 00:00:00,297 INFO 2570 [Job#159776640028216033113668294052] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 4ms
+2020-08-19 00:00:00,292 INFO 1058 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399717ms at 2020-08-20 00:00:00.008
+2020-08-19 00:00:01,280 INFO 2570 [Job#159776640127416033123595183912] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-08-19 00:00:01,284 INFO 2570 [Job#159776640127416033123595183912] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 4ms
+2020-08-19 00:00:01,283 INFO 1058 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399723ms at 2020-08-20 00:00:01.006

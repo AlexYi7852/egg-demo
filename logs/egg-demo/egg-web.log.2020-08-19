@@ -1,0 +1,30 @@
+2020-08-19 00:00:01,287 INFO 2570 [egg-logrotator] app logger reload: got log-reload message
+2020-08-19 01:26:50,396 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 01:36:47,006 WARN 2570 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-19 01:36:47,007 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 01:47:02,135 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 01:57:17,262 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 02:00:32,382 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 02:10:27,484 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 02:20:42,605 WARN 2570 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-19 02:20:42,605 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 02:30:58,732 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 02:40:53,834 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 02:51:08,937 WARN 2570 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-19 02:51:08,937 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 02:53:43,046 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 03:03:39,138 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 03:13:54,434 WARN 2570 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-19 03:13:54,434 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 03:23:50,006 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 03:34:05,064 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 03:44:20,341 WARN 2570 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-19 03:44:20,342 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 03:54:15,717 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 04:04:32,064 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 04:14:27,290 WARN 2570 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-19 07:17:43,037 INFO 2570 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/dc/hxt34n8d3gd7dd_bsmwxwjrw0000gn/T/egg-multipart-tmp/egg-demo"
+2020-08-19 07:17:43,040 INFO 2570 [-/127.0.0.1/-/5ms SCHEDULE /__schedule?path=/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-08-20 02:47:43,253 INFO 2570 [egg-logrotator] clean all log before 31 days
+2020-08-20 02:47:44,228 INFO 2570 [egg-logrotator] broadcast log-reload
+2020-08-20 02:47:44,229 INFO 2570 [egg-logrotator] rotate files success by DayRotator, files ["/Users/yiye/Desktop/node/egg-demo/logs/egg-demo/common-error.log -> /Users/yiye/Desktop/node/egg-demo/logs/egg-demo/common-error.log.2020-08-19","/Users/yiye/Desktop/node/egg-demo/logs/egg-demo/egg-demo-web.log -> /Users/yiye/Desktop/node/egg-demo/logs/egg-demo/egg-demo-web.log.2020-08-19","/Users/yiye/Desktop/node/egg-demo/logs/egg-demo/egg-web.log -> /Users/yiye/Desktop/node/egg-demo/logs/egg-demo/egg-web.log.2020-08-19","/Users/yiye/Desktop/node/egg-demo/logs/egg-demo/egg-schedule.log -> /Users/yiye/Desktop/node/egg-demo/logs/egg-demo/egg-schedule.log.2020-08-19","/Users/yiye/Desktop/node/egg-demo/logs/egg-demo/egg-agent.log -> /Users/yiye/Desktop/node/egg-demo/logs/egg-demo/egg-agent.log.2020-08-19"]

@@ -1,0 +1,9 @@
+2020-08-21 04:30:00,877 INFO 1058 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86399131ms at 2020-08-22 04:30:00.008
+2020-08-21 04:30:00,873 INFO 2570 [Job#159795540086617822478212425305] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-08-21 04:30:00,876 INFO 2570 [Job#159795540086617822478212425305] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 3ms
+2020-08-22 05:11:00,357 INFO 2570 [Job#159804426034618524471270878385] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-08-22 05:11:00,363 INFO 2570 [Job#159804426034618524471270878385] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 6ms
+2020-08-22 05:11:00,354 INFO 1058 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 67739650ms at 2020-08-23 00:00:00.004
+2020-08-22 05:11:01,350 INFO 2570 [Job#159804426134618524481271197055] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-08-22 05:11:01,354 INFO 2570 [Job#159804426134618524481271197055] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 4ms
+2020-08-22 05:11:01,350 INFO 1058 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 67739652ms at 2020-08-23 00:00:01.002

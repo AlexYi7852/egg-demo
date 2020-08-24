@@ -1,0 +1,11 @@
+2020-08-21 00:00:01,783 INFO 1058 [egg-logrotator] agent logger reload: got log-reload message
+2020-08-21 20:38:49,125 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 18694500ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+

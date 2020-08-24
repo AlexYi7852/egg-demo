@@ -1,0 +1,1335 @@
+2020-08-17 00:30:52,948 ERROR 98921 [-/127.0.0.1/-/13ms GET /api/blog/list] nodejs.TypeError: app.mysql.getList is not a function
+    at BlogController.list (/Users/yiye/Desktop/node/egg-demo/app/controller/blog.js:19:38)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 98921
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:32:10,830 ERROR 98933 [-/127.0.0.1/-/12ms GET /api/blog/list] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: blog
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1"
+sqlState: "42000"
+index: 0
+sql: "blog"
+name: "ER_PARSE_ERRORError"
+pid: 98933
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:33:50,114 ERROR 98944 [-/127.0.0.1/-/11ms GET /api/blog/list] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: blog
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1"
+sqlState: "42000"
+index: 0
+sql: "blog"
+name: "ER_PARSE_ERRORError"
+pid: 98944
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:33:55,206 ERROR 98944 [-/127.0.0.1/-/6ms GET /api/blog/list] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: blog
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1"
+sqlState: "42000"
+index: 0
+sql: "blog"
+name: "ER_PARSE_ERRORError"
+pid: 98944
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:34:06,935 ERROR 98947 [-/127.0.0.1/-/12ms GET /api/blog/list] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: blog
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1"
+sqlState: "42000"
+index: 0
+sql: "blog"
+name: "ER_PARSE_ERRORError"
+pid: 98947
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:36:04,354 ERROR 98963 [-/127.0.0.1/-/11ms GET /api/blog/list] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: blog
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1"
+sqlState: "42000"
+index: 0
+sql: "blog"
+name: "ER_PARSE_ERRORError"
+pid: 98963
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:36:07,862 ERROR 98963 [-/127.0.0.1/-/5ms GET /api/blog/list] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: blog
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1"
+sqlState: "42000"
+index: 0
+sql: "blog"
+name: "ER_PARSE_ERRORError"
+pid: 98963
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:37:16,235 ERROR 98972 [-/127.0.0.1/-/9ms GET /api/blog/list] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: blog
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog' at line 1"
+sqlState: "42000"
+index: 0
+sql: "blog"
+name: "ER_PARSE_ERRORError"
+pid: 98972
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:37:24,842 ERROR 98977 [-/127.0.0.1/-/53ms GET /api/blog/list] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'myblog.blog' doesn't exist
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `blog` LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'myblog.blog' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `blog` LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 98977
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:46:29,597 ERROR 99059 [-/127.0.0.1/-/12ms GET /api/blog/list?author=lisi] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'keyword' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `blogs` WHERE `author` = 'lisi' AND `keyword` = '' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'keyword' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `blogs` WHERE `author` = 'lisi' AND `keyword` = '' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 99059
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:48:22,690 ERROR 99065 [-/127.0.0.1/-/14ms GET /api/blog/list?author=lisi] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `keyword` = '' LIMIT 0, 1' at line 1
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `blogs` WHERE `where` = `author` = 'lisi', `keyword` = '' LIMIT 0, 1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `keyword` = '' LIMIT 0, 1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM `blogs` WHERE `where` = `author` = 'lisi', `keyword` = '' LIMIT 0, 1"
+name: "ER_PARSE_ERRORError"
+pid: 99065
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:49:21,054 ERROR 99069 [-/127.0.0.1/-/13ms GET /api/blog/list?author=lisi] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `keyword` = '' LIMIT 0, 1' at line 1
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `blogs` WHERE `where` = `author` = 'lisi', `keyword` = '' LIMIT 0, 1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `keyword` = '' LIMIT 0, 1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM `blogs` WHERE `where` = `author` = 'lisi', `keyword` = '' LIMIT 0, 1"
+name: "ER_PARSE_ERRORError"
+pid: 99069
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:49:37,202 ERROR 99072 [-/127.0.0.1/-/12ms GET /api/blog/list?author=lisi] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'keyword' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `blogs` WHERE `author` = 'lisi' AND `keyword` = ''
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'keyword' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `blogs` WHERE `author` = 'lisi' AND `keyword` = ''"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 99072
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:51:31,945 ERROR 99077 [-/127.0.0.1/-/13ms GET /api/blog/list?author=lisi] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'keyword' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `blogs` WHERE `author` = 'lisi' AND `keyword` IN ('')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'keyword' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `blogs` WHERE `author` = 'lisi' AND `keyword` IN ('')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 99077
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 00:51:50,664 ERROR 99078 [-/127.0.0.1/-/13ms GET /api/blog/list?author=lisi] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'keyword' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `blogs` WHERE `author` = 'lisi' AND `keyword` = '' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'keyword' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `blogs` WHERE `author` = 'lisi' AND `keyword` = '' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 99078
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 01:39:50,872 ERROR 99394 [-/127.0.0.1/-/21ms POST /api/user/login] nodejs.TypeError: Cannot read property 'user' of undefined
+    at UserController.login (/Users/yiye/Desktop/node/egg-demo/app/controller/user.js:8:40)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 99394
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 01:41:04,303 ERROR 99406 [-/127.0.0.1/-/25ms POST /api/user/login] nodejs.ReferenceError: ErrorModel is not defined
+    at UserController.login (/Users/yiye/Desktop/node/egg-demo/app/controller/user.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 99406
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 01:42:52,849 ERROR 99424 [-/127.0.0.1/-/25ms POST /api/user/login] nodejs.ReferenceError: ErrorModel is not defined
+    at UserController.login (/Users/yiye/Desktop/node/egg-demo/app/controller/user.js:17:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 99424
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 01:44:11,101 ERROR 99430 [-/127.0.0.1/-/30ms POST /api/user/login] nodejs.ReferenceError: ErrorModel is not defined
+    at UserController.login (/Users/yiye/Desktop/node/egg-demo/app/controller/user.js:17:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 99430
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 01:45:11,083 ERROR 99437 [-/127.0.0.1/-/27ms POST /api/user/login] nodejs.ReferenceError: ErrorModel is not defined
+    at UserController.login (/Users/yiye/Desktop/node/egg-demo/app/controller/user.js:17:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 99437
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:06:35,290 ERROR 99543 [-/127.0.0.1/-/39ms POST /api/user/login] nodejs.TypeError: redis.set is not a function
+    at Object.set (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session-redis/app.js:22:19)
+    at ContextSession.save (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:321:24)
+    at ContextSession.commit (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:239:16)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:46:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 99543
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:16:13,743 ERROR 99543 [-/127.0.0.1/-/5ms POST /api/user/login] nodejs.TypeError: redis.set is not a function
+    at Object.set (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session-redis/app.js:22:19)
+    at ContextSession.save (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:321:24)
+    at ContextSession.commit (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:239:16)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:46:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 99543
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:17:18,242 ERROR 969 [-/127.0.0.1/-/34ms POST /api/user/login] nodejs.TypeError: redis.set is not a function
+    at Object.set (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session-redis/app.js:22:19)
+    at ContextSession.save (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:321:24)
+    at ContextSession.commit (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:239:16)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:46:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 969
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:19:58,366 ERROR 996 [-/127.0.0.1/-/31ms POST /api/user/login] nodejs.TypeError: redis.set is not a function
+    at Object.set (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session-redis/app.js:22:19)
+    at ContextSession.save (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:321:24)
+    at ContextSession.commit (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:239:16)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:46:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 996
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:29:20,094 ERROR 1034 [-/127.0.0.1/-/35ms POST /api/user/login] nodejs.TypeError: redis.set is not a function
+    at Object.set (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session-redis/app.js:22:19)
+    at ContextSession.save (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:321:24)
+    at ContextSession.commit (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:239:16)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:46:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1034
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:31:27,481 ERROR 1034 [-/127.0.0.1/-/9ms POST /api/user/login] nodejs.TypeError: redis.set is not a function
+    at Object.set (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session-redis/app.js:22:19)
+    at ContextSession.save (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:321:24)
+    at ContextSession.commit (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:239:16)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:46:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1034
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:36:05,066 ERROR 1076 [-/127.0.0.1/-/37ms POST /api/user/login] nodejs.TypeError: redis.set is not a function
+    at Object.set (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session-redis/app.js:22:19)
+    at ContextSession.save (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:321:24)
+    at ContextSession.commit (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/lib/context.js:239:16)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:46:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1076
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:39:24,783 ERROR 1090 [-/127.0.0.1/-/22ms POST /api/blog/new] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as update] (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:30:15)
+    at BlogService.newBlog (/Users/yiye/Desktop/node/egg-demo/app/service/blog.js:23:43)
+    at BlogController.news (/Users/yiye/Desktop/node/egg-demo/app/controller/blog.js:31:45)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+
+pid: 1090
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:40:31,186 ERROR 1098 [-/127.0.0.1/-/40ms POST /api/blog/new] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'createtime' doesn't have a default value
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: INSERT INTO `blogs`(`title`, `content`, `author`) VALUES('sdfas', 'sdafs', 'zhangsan')
+code: "ER_NO_DEFAULT_FOR_FIELD"
+errno: 1364
+sqlMessage: "Field 'createtime' doesn't have a default value"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `blogs`(`title`, `content`, `author`) VALUES('sdfas', 'sdafs', 'zhangsan')"
+name: "ER_NO_DEFAULT_FOR_FIELDError"
+pid: 1098
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:43:08,680 ERROR 1109 [-/127.0.0.1/-/28ms POST /api/blog/new] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'title' doesn't have a default value
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: INSERT INTO `blogs`() VALUES()
+code: "ER_NO_DEFAULT_FOR_FIELD"
+errno: 1364
+sqlMessage: "Field 'title' doesn't have a default value"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `blogs`() VALUES()"
+name: "ER_NO_DEFAULT_FOR_FIELDError"
+pid: 1109
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:43:53,666 ERROR 1109 [-/127.0.0.1/-/8ms POST /api/blog/new] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'title' doesn't have a default value
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: INSERT INTO `blogs`() VALUES()
+code: "ER_NO_DEFAULT_FOR_FIELD"
+errno: 1364
+sqlMessage: "Field 'title' doesn't have a default value"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `blogs`() VALUES()"
+name: "ER_NO_DEFAULT_FOR_FIELDError"
+pid: 1109
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:49:34,411 ERROR 1130 [-/127.0.0.1/-/21ms POST /api/blog/update?id=35] nodejs.ReferenceError: updateBlog is not defined
+    at BlogController.update (/Users/yiye/Desktop/node/egg-demo/app/controller/blog.js:36:21)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 1130
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:50:18,577 ERROR 1136 [-/127.0.0.1/-/33ms POST /api/blog/update?id=35] nodejs.TypeError: ctx.service.updateBlog is not a function
+    at BlogController.update (/Users/yiye/Desktop/node/egg-demo/app/controller/blog.js:36:39)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 1136
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 02:54:36,768 ERROR 1164 [-/127.0.0.1/-/41ms POST /api/blog/del?id=30] nodejs.ReferenceError: author is not defined
+    at BlogService.deleteBlog (/Users/yiye/Desktop/node/egg-demo/app/service/blog.js:35:74)
+    at BlogController.delete (/Users/yiye/Desktop/node/egg-demo/app/controller/blog.js:41:44)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-compose/index.js:44:32)
+
+pid: 1164
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 04:12:14,356 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 1633989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 04:47:45,956 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 573929ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 05:07:56,302 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575163ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 05:18:12,052 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575737ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 05:28:07,460 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575387ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 05:38:22,737 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575258ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 05:48:18,008 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575256ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 05:58:33,417 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575397ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 06:08:29,546 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 576114ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 06:18:44,960 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575397ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 06:28:40,165 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575172ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 06:38:55,393 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575217ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 06:48:51,006 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575602ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 06:59:06,424 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575399ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 07:09:21,552 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575107ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 07:18:51,965 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 550398ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 14:37:27,674 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 26315708ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 14:45:19,486 ERROR 1529 [-/127.0.0.1/-/13ms GET /api/blog/list] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'keyword' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `blogs` WHERE `author` = '' AND `keyword` = ''
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'keyword' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `blogs` WHERE `author` = '' AND `keyword` = ''"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1529
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 14:58:25,936 ERROR 1593 [-/127.0.0.1/-/15ms GET /api/blog/list?author=zhangsan] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'keyword' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Pool.query (/Users/yiye/Desktop/node/egg-demo/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yiye/Desktop/node/egg-demo/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:65:19)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `blogs` WHERE `author` = 'zhangsan' AND `keyword` = ''
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'keyword' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `blogs` WHERE `author` = 'zhangsan' AND `keyword` = ''"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1593
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 15:44:38,843 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 571963ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 15:54:54,186 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575327ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 16:04:49,896 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575679ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 16:15:05,254 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575340ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 16:25:00,497 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 16:35:15,848 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 16:45:11,172 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575264ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 16:55:26,480 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575294ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 17:05:22,732 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 576234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 17:15:37,945 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575196ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 17:25:33,006 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575045ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 17:35:49,328 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 576303ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 17:46:04,476 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575136ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 17:55:59,788 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575298ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 18:06:14,994 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575173ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 18:16:10,292 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 18:36:20,940 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575317ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 18:56:31,662 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575194ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 19:06:46,915 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575235ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 19:16:42,416 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575485ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 19:37:01,373 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 583587ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 19:47:20,506 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 578947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 19:57:39,236 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 578612ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 20:07:39,074 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 579742ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 20:17:58,089 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 578934ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 20:27:57,169 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 578989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 20:38:16,102 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 578810ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 20:48:16,155 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 579952ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 20:58:35,745 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 579408ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 21:08:54,885 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 579021ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 21:16:21,566 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 426606ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 22:00:17,823 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575574ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 22:10:32,981 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575137ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 22:20:28,214 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 575217ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-17 22:28:46,917 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 458682ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yiye/Desktop/node/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: yiyedeMacBook-Pro.local
+

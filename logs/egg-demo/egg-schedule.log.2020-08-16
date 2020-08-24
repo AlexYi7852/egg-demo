@@ -1,0 +1,204 @@
+2020-08-16 20:02:11,097 INFO 96458 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 30468906ms at 2020-08-17 04:30:00.003
+2020-08-16 20:02:11,098 INFO 96458 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 14268903ms at 2020-08-17 00:00:00.000
+2020-08-16 20:02:11,098 INFO 96458 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 14269902ms at 2020-08-17 00:00:01.000
+2020-08-16 20:02:11,028 INFO 96459 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:02:11,028 INFO 96459 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:02:11,028 INFO 96459 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:04:07,864 INFO 96676 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 30352139ms at 2020-08-17 04:30:00.003
+2020-08-16 20:04:07,864 INFO 96676 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 14152136ms at 2020-08-17 00:00:00.000
+2020-08-16 20:04:07,864 INFO 96676 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 14153136ms at 2020-08-17 00:00:01.000
+2020-08-16 20:04:07,742 INFO 96677 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:04:07,742 INFO 96677 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:04:07,742 INFO 96677 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:04:51,541 INFO 96692 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:04:51,541 INFO 96692 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:04:51,541 INFO 96692 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:04:57,774 INFO 96702 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:04:57,774 INFO 96702 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:04:57,774 INFO 96702 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:06:20,696 INFO 96724 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:06:20,696 INFO 96724 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:06:20,696 INFO 96724 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:07:07,194 INFO 96732 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:07:07,194 INFO 96732 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:07:07,194 INFO 96732 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:07:08,240 INFO 96733 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:07:08,240 INFO 96733 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:07:08,240 INFO 96733 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:07:19,993 INFO 96743 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:07:19,993 INFO 96743 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:07:19,993 INFO 96743 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:07:44,038 INFO 96748 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:07:44,038 INFO 96748 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:07:44,038 INFO 96748 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:08:00,041 INFO 96751 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:08:00,041 INFO 96751 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:08:00,041 INFO 96751 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:08:00,767 INFO 96752 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:08:00,767 INFO 96752 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:08:00,767 INFO 96752 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:09:10,222 INFO 96756 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:09:10,222 INFO 96756 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:09:10,222 INFO 96756 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:09:26,123 INFO 96759 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:09:26,123 INFO 96759 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:09:26,123 INFO 96759 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:10:43,703 INFO 96764 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:10:43,703 INFO 96764 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:10:43,703 INFO 96764 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:13:55,927 INFO 96793 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:13:55,927 INFO 96793 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:13:55,927 INFO 96793 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:17:29,621 INFO 96808 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:17:29,621 INFO 96808 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:17:29,621 INFO 96808 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:18:34,957 INFO 96814 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:18:34,957 INFO 96814 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:18:34,957 INFO 96814 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:19:43,408 INFO 96824 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 29416595ms at 2020-08-17 04:30:00.003
+2020-08-16 20:19:43,408 INFO 96824 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 13216592ms at 2020-08-17 00:00:00.000
+2020-08-16 20:19:43,409 INFO 96824 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 13217592ms at 2020-08-17 00:00:01.001
+2020-08-16 20:19:43,278 INFO 96826 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:19:43,278 INFO 96826 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:19:43,278 INFO 96826 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:22:16,130 INFO 96841 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:22:16,131 INFO 96841 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:22:16,131 INFO 96841 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:22:16,766 INFO 96842 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:22:16,766 INFO 96842 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:22:16,766 INFO 96842 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:24:09,195 INFO 96860 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:24:09,195 INFO 96860 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:24:09,195 INFO 96860 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:24:09,865 INFO 96861 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:24:09,865 INFO 96861 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:24:09,865 INFO 96861 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:24:39,587 INFO 96865 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:24:39,588 INFO 96865 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:24:39,588 INFO 96865 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:26:45,217 INFO 96878 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:26:45,217 INFO 96878 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:26:45,217 INFO 96878 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:26:48,833 INFO 96879 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:26:48,833 INFO 96879 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:26:48,833 INFO 96879 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:26:50,076 INFO 96881 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:26:50,076 INFO 96881 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:26:50,076 INFO 96881 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:27:33,136 INFO 96883 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:27:33,136 INFO 96883 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:27:33,136 INFO 96883 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:27:54,382 INFO 96886 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:27:54,382 INFO 96886 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:27:54,382 INFO 96886 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:29:32,201 INFO 96892 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:29:32,201 INFO 96892 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:29:32,201 INFO 96892 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:31:59,435 INFO 96902 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:31:59,435 INFO 96902 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:31:59,435 INFO 96902 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:32:00,350 INFO 96903 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:32:00,350 INFO 96903 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:32:00,350 INFO 96903 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:35:26,332 INFO 96915 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:35:26,332 INFO 96915 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:35:26,332 INFO 96915 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:37:22,523 INFO 96922 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:37:22,523 INFO 96922 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:37:22,523 INFO 96922 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:39:17,073 INFO 96928 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:39:17,073 INFO 96928 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:39:17,073 INFO 96928 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:39:16,495 INFO 96927 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:39:16,495 INFO 96927 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:39:16,495 INFO 96927 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:39:17,314 INFO 96929 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:39:17,314 INFO 96929 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:39:17,315 INFO 96929 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:40:42,417 INFO 96937 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:40:42,417 INFO 96937 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:40:42,417 INFO 96937 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:40:58,353 INFO 96940 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:40:58,353 INFO 96940 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:40:58,353 INFO 96940 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:45:06,299 INFO 96966 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:45:06,299 INFO 96966 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:45:06,299 INFO 96966 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:45:11,411 INFO 96968 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:45:11,412 INFO 96968 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:45:11,412 INFO 96968 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:45:42,813 INFO 96971 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:45:42,813 INFO 96971 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:45:42,813 INFO 96971 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:45:44,733 INFO 96972 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:45:44,733 INFO 96972 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:45:44,733 INFO 96972 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:46:40,026 INFO 96978 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:46:40,026 INFO 96978 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:46:40,026 INFO 96978 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:50:46,065 INFO 96992 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:50:46,065 INFO 96992 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:50:46,065 INFO 96992 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:51:25,420 INFO 96995 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:51:25,420 INFO 96995 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:51:25,420 INFO 96995 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:52:04,254 INFO 96997 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:52:04,255 INFO 96997 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:52:04,255 INFO 96997 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:54:06,064 INFO 97004 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:54:06,064 INFO 97004 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:54:06,064 INFO 97004 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:58:24,149 INFO 97018 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:58:24,149 INFO 97018 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:58:24,149 INFO 97018 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 20:59:13,101 INFO 97025 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 20:59:13,101 INFO 97025 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 20:59:13,101 INFO 97025 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 22:47:12,655 INFO 98185 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 22:47:12,655 INFO 98185 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 22:47:12,655 INFO 98185 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 22:48:59,645 INFO 98193 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 22:48:59,646 INFO 98193 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 22:48:59,646 INFO 98193 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 22:49:04,752 INFO 98195 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 22:49:04,752 INFO 98195 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 22:49:04,752 INFO 98195 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 22:49:05,554 INFO 98196 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 22:49:05,554 INFO 98196 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 22:49:05,554 INFO 98196 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 22:49:41,551 INFO 98199 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 22:49:41,551 INFO 98199 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 22:49:41,551 INFO 98199 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 22:50:00,220 INFO 98201 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 22:50:00,220 INFO 98201 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 22:50:00,220 INFO 98201 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 23:53:50,516 INFO 98666 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 16569487ms at 2020-08-17 04:30:00.003
+2020-08-16 23:53:50,516 INFO 98666 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 369484ms at 2020-08-17 00:00:00.000
+2020-08-16 23:53:50,516 INFO 98666 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 370484ms at 2020-08-17 00:00:01.000
+2020-08-16 23:53:50,252 INFO 98667 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 23:53:50,252 INFO 98667 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 23:53:50,252 INFO 98667 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 23:56:00,746 INFO 98682 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 23:56:00,747 INFO 98682 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 23:56:00,747 INFO 98682 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 23:56:01,559 INFO 98683 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 23:56:01,559 INFO 98683 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 23:56:01,559 INFO 98683 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 23:56:14,244 INFO 98689 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 16425759ms at 2020-08-17 04:30:00.003
+2020-08-16 23:56:14,244 INFO 98689 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 225756ms at 2020-08-17 00:00:00.000
+2020-08-16 23:56:14,244 INFO 98689 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 226756ms at 2020-08-17 00:00:01.000
+2020-08-16 23:56:14,138 INFO 98690 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 23:56:14,138 INFO 98690 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 23:56:14,138 INFO 98690 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 23:57:21,604 INFO 98694 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 23:57:21,604 INFO 98694 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 23:57:21,604 INFO 98694 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-16 23:57:50,247 INFO 98696 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-16 23:57:50,247 INFO 98696 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-16 23:57:50,247 INFO 98696 [egg-schedule]: register schedule /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-17 00:00:00,012 INFO 98689 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399992ms at 2020-08-18 00:00:00.004
+2020-08-17 00:00:00,008 INFO 98696 [Job#159759360000714900524372899331] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-08-17 00:00:00,015 INFO 98696 [Job#159759360000714900524372899331] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 6ms
+2020-08-17 00:00:01,004 INFO 98696 [Job#159759360100314900534338569681] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-08-17 00:00:01,012 INFO 98696 [Job#159759360100314900534338569681] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 8ms
+2020-08-17 00:00:01,008 INFO 98689 [Timer] /Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399996ms at 2020-08-18 00:00:01.004

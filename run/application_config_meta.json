@@ -1,0 +1,293 @@
+{
+  "keys": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js",
+      "type": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "view": {
+    "mapping": {
+      ".html": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js"
+    },
+    "root": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view/config/config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "path": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js",
+      "port": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js",
+      "hostname": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "port": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js",
+      "user": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js",
+      "host": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js",
+      "database": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js",
+      "password": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js"
+    },
+    "app": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js",
+    "agent": "/Users/yiye/Desktop/node/egg-demo/config/config.default.js",
+    "default": {
+      "database": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-static/config/config.default.js"
+  },
+  "ejs": {
+    "root": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/config/config.default.js"
+  },
+  "env": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "name": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "version": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "description": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "main": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "test": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "license": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg-bin": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-session-redis": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "strict": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "depth": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "env": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "level": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "logging": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/yiye/Desktop/node/egg-demo/node_modules/egg/config/config.default.js"
+}

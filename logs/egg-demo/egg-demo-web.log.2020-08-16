@@ -1,0 +1,185 @@
+2020-08-16 20:02:19,302 ERROR 96459 [-/127.0.0.1/-/10ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 96459
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-16 20:03:47,739 ERROR 96459 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 96459
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-16 20:17:56,309 WARN 96808 [-/127.0.0.1/-/21ms POST /product/create] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-08-16 20:17:56,311 WARN 96808 [-/127.0.0.1/-/23ms POST /product/create] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 96808
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-16 20:18:36,012 WARN 96814 [-/127.0.0.1/-/20ms POST /product/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-08-16 20:18:36,014 WARN 96814 [-/127.0.0.1/-/22ms POST /product/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 96814
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-16 20:19:48,399 WARN 96826 [-/127.0.0.1/-/23ms POST /product/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-08-16 20:19:48,402 WARN 96826 [-/127.0.0.1/-/25ms POST /product/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 96826
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-16 20:22:23,537 WARN 96842 [-/127.0.0.1/-/22ms POST /product/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-08-16 20:22:23,543 WARN 96842 [-/127.0.0.1/-/27ms POST /product/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 96842
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-16 20:24:13,838 ERROR 96861 [-/127.0.0.1/-/24ms POST /product/create] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yiye/Desktop/node/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yiye/Desktop/node/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yiye/Desktop/node/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 96861
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-16 20:56:38,141 ERROR 97004 [-/127.0.0.1/-/5ms GET /] nodejs.SyntaxError: Unexpected token = in /Users/yiye/Desktop/node/egg-demo/app/view/index.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at Promise (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 97004
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-16 20:56:44,902 ERROR 97004 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: Unexpected token = in /Users/yiye/Desktop/node/egg-demo/app/view/index.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at Promise (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 97004
+hostname: yiyedeMacBook-Pro.local
+
+2020-08-16 23:57:22,845 ERROR 98694 [-/127.0.0.1/-/22ms GET /] nodejs.ReferenceError: /Users/yiye/Desktop/node/egg-demo/app/view/index.html:9
+    7|     <body>
+    8|         <h1>这是首页内容</h1>
+ >> 9|         <p>id: <%=data.id%></p>
+    10|         <p>name: <%=data.name%></p>
+    11|         <ul>
+    12|             <% for(var i = 0; i < list.length; i++) { %>
+
+data is not defined
+    7|     <body>
+    8|         <h1>这是首页内容</h1>
+ >> 9|         <p>id: <%=data.id%></p>
+    10|         <p>name: <%=data.name%></p>
+    11|         <ul>
+    12|             <% for(var i = 0; i < list.length; i++) { %>
+
+data is not defined
+    at eval (/Users/yiye/Desktop/node/egg-demo/app/view/index.html:12:25)
+    at index (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/yiye/Desktop/node/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at Promise (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/yiye/Desktop/node/egg-demo/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/yiye/Desktop/node/egg-demo/app/view/index.html"
+pid: 98694
+hostname: yiyedeMacBook-Pro.local
+
